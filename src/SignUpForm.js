@@ -12,7 +12,7 @@ export default function SignUpForm() {
   const [snackbar, setSnackbar] = React.useState({
     open: false,
     message: "",
-    severity: "success" // "success" أو "error"
+    severity: "success" 
   });
 
   const handleClose = (event, reason) => {
